@@ -1,0 +1,24 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 32px;
+    background-color: rgb(194, 194, 194);
+    border-right: 1px solid black;
+    border-radius: 0 0 0 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px black solid;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 4px;
+    transition: color 300ms, border-bottom 300ms;
+}
+a:hover{
+    color: rgb(90, 90, 90);
+    border-bottom: 1px rgb(90, 90, 90) solid;
+}

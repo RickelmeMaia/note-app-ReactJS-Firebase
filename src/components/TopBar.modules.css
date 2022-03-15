@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
+.topBar{
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    width: 96%;
+    border-bottom: 1px solid black;
+}
