@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,  Routes,  Route,  Link} from "react-router-dom";
-import AllPosts from "./pages/AllPosts";
-import NewPosts from "./pages/NewPosts";
+import AllNotes from "./pages/AllNotes";
+import NewNotes from "./pages/NewNotes";
 import TopBar from "./components/TopBar";
 import SideBar from "./components/SideBar";
 
@@ -13,8 +13,8 @@ function App() {
             <SideBar/>            
             <div className="contentContainer">
               <Routes>
-                <Route path="/allPosts" element={<AllPosts/>}/>
-                <Route path="/newPosts" element={<NewPosts/>}/>
+                <Route path="/allNotes" element={<AllNotes/>}/>
+                <Route path="/newNotes" element={<NewNotes/>}/>
               </Routes>
             </div>
           </div>    

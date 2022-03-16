@@ -12,11 +12,13 @@
 a{
     text-decoration: none;
     color: black;
-    border-bottom: 1px black solid;
-    width: 100px;
+    border: 1px black solid;
+    background-color: white;
+    width: 90%;
     text-align: center;
-    padding-bottom: 4px;
+    padding: 12px 0;
     transition: color 300ms, border-bottom 300ms;
+    border-radius: 10px;
 }
 a:hover{
     color: rgb(90, 90, 90);

@@ -6,11 +6,12 @@ function SideBar(){
 
     return(
         <div className="sideBar">
-            <Link to="/allPosts">All Posts</Link>
-            <Link to="/newPosts">New Posts</Link>
-            <Link to="/allPosts">All Posts</Link>
-            <Link to="/newPosts">New Posts</Link>
-            <Link to="/allPosts">All Posts</Link>
+            <Link to="/allNotes">All Notes</Link>
+            <Link to="/newNotes">New Notes</Link>
+            <Link to="/allNotes">All Notes</Link>
+            <Link to="/newNotes">New Notes</Link>
+            <Link to="/allNotes">All Notes</Link>
+            <Link to="/allNotes">All Notes</Link>
         </div>
     )
 

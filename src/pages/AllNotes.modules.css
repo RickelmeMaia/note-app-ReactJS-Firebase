@@ -1,0 +1,7 @@
+.allNotes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
