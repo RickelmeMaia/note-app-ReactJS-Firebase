@@ -33,3 +33,17 @@
 .note button:hover{
     color: rgb(255, 86, 86);
 }
+@media(max-width:1010px){
+
+    .note{
+        width: 49%;
+    }
+
+}
+@media(max-width:600px){
+
+    .note{
+        width: 100%;
+    }
+
+}

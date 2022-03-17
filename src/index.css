@@ -30,3 +30,10 @@ body{
   background-color: white;
   border-radius: 0 0 6px 0;
 }
+@media(max-width:600px){
+
+  .contentContainer{
+    min-width: 70%;
+  }
+
+}
