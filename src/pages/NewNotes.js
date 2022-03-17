@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {addDoc, collection, getDocs} from "firebase/firestore"
+import styles from "./NewNotes.modules.css"
 import {db} from "../firebase"
 
 function NewPosts(){
@@ -35,7 +36,9 @@ function NewPosts(){
 
     return(
         <div className="newNotes">
-            <input type="text" maxLength={16} name="title" placeholder="Title" onChange={(e)=>(setNewTitle(e.target.value))}/>
+            <input className="titleInput" type="text" maxLength={16} name="title" placeholder="Title" onChange={(e)=>(setNewTitle(e.target.value))}/>
+            <textarea name="text" cols="30" rows="10" onChange={(e)=>(setNewText(e.target.value))}></textarea>
+            <div className="selectContainer">
             <select name="category" onChange={(e)=>(setNewCategory(e.target.value))}>
                 {category.map((category)=>{
                     return <option value={category.option}>{category.option}</option>
@@ -46,7 +49,7 @@ function NewPosts(){
                     return <option value={colors.value} >{colors.color}</option>
                 })}
             </select>
-            <textarea name="text" cols="30" rows="10" onChange={(e)=>(setNewText(e.target.value))}></textarea>
+            </div>
             <button onClick={createNote}>Create New Note</button>
         </div>
     )

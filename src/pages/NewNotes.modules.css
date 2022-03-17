@@ -1,0 +1,28 @@
+.titleInput{
+    width: 80%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.newNotes{
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.newNotes select{
+    width: 50%;
+    height: 2rem;
+}
+textarea{
+    resize: none;
+    width: 80%;
+    font-size: 2rem;
+}
+.selectContainer{
+    width: 80%;
+}
+button{
+    height: 3rem;
+    width: 20%;
+    margin-top: 8px;
+}

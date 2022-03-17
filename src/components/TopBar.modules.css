@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
 .topBar{
-    width: 100%;
     background-color: rgb(211, 211, 211);
     height: 3rem;
     display: flex;

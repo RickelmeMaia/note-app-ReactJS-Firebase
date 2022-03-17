@@ -7,11 +7,7 @@ function SideBar(){
     return(
         <div className="sideBar">
             <Link to="/allNotes">All Notes</Link>
-            <Link to="/newNotes">New Notes</Link>
-            <Link to="/allNotes">All Notes</Link>
-            <Link to="/newNotes">New Notes</Link>
-            <Link to="/allNotes">All Notes</Link>
-            <Link to="/allNotes">All Notes</Link>
+            <Link to="/newNotes">New Notes</Link> 
         </div>
     )
 

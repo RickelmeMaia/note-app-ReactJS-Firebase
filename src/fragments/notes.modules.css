@@ -1,5 +1,5 @@
 .note{
-    width: 26%;
+    width: 32%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -9,13 +9,15 @@
 }
 .note h1{
     margin: 3% 0 3% 0;
+    word-wrap: break-word;
+    width: 100%;
 }
 .note h2{
     margin: 0 0 6% 0;
 }
 .note p{
     margin:  0 0 15% 0;
-    width: 100%;
+    width: 95%;
     word-wrap: break-word;
 }
 .note h3{
