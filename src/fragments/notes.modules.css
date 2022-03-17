@@ -15,7 +15,19 @@
 }
 .note p{
     margin:  0 0 15% 0;
+    width: 100%;
+    word-wrap: break-word;
 }
 .note h3{
     padding: 0 0 6px 0;
+}
+.note button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: red;
+    padding-bottom: 6px;
+}
+.note button:hover{
+    color: rgb(255, 86, 86);
 }

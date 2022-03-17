@@ -23,7 +23,7 @@ function AllPosts(){
         <div className="allNotes">
             {notes.map((note)=>{
                 return(
-                    <Notes color={note.color} text={note.text} title={note.title} category={note.category} date={note.date}/>
+                    <Notes color={note.color} text={note.text} title={note.title} category={note.category} date={note.date} id={note.id}/>
                 )
             })}
         </div>
